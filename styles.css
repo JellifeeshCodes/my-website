@@ -1,0 +1,42 @@
+/* Basic page layout */
+body {
+    background-color: pink;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Heading and text */
+.site-title {
+    color: white;
+    margin-top: 0;
+}
+
+.intro {
+    font-size: 25px;
+    color: #333;
+}
+
+/* Link styling */
+.more-link {
+    display: inline-block;
+    margin: 12px 0;
+    color: #0066cc;
+    text-decoration: none;
+}
+.more-link:hover {
+    text-decoration: underline;
+}
+
+/* Image */
+.avatar {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
