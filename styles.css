@@ -21,16 +21,47 @@ body {
 
 .intro {
     font-size: 25px;
-    color: #333;
+    color: #e75480;
+}
+
+.about-me {
+    font-size: 25px;
+    color:#e75480;
 }
 
 /* Link styling */
 .more-link {
+    font-size: 25px;
     display: inline-block;
     margin: 12px 0;
-    color: #0066cc;
+    color: aqua;
     text-decoration: none;
 }
 .more-link:hover {
     text-decoration: underline;
+}
+
+/* Images*/
+.image-sammi {
+    width: 300x;
+    height: 340px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.image-connie {
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+/* Footer styling */
+.footer {
+    font-size: 14px;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
 }
