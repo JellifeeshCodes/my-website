@@ -1,0 +1,67 @@
+/* Basic page layout */
+body {
+    background-color: pink;
+    font-family: "Perfect Lemonade", Perfect Lemonade, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Heading and text */
+.site-title {
+    color: white;
+    margin-top: 0;
+}
+
+.intro {
+    font-size: 25px;
+    color: #e75480;
+}
+
+.about-me {
+    font-size: 25px;
+    color:#e75480;
+}
+
+/* Link styling */
+.more-link {
+    font-size: 25px;
+    display: inline-block;
+    margin: 12px 0;
+    color: aqua;
+    text-decoration: none;
+}
+.more-link:hover {
+    text-decoration: underline;
+}
+
+/* Images*/
+.image-sammi {
+    width: 300x;
+    height: 340px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.image-connie {
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+/* Footer styling */
+.footer {
+    font-size: 14px;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
